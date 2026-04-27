@@ -22,13 +22,7 @@ requirements.txt
 # Text
 *.txt
 
-# Images
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.svg
-*.ico
-*.webp
+# Images (assets Python uniquement — public/ doit rester versionné pour Vercel)
 image/
+ajout_probleme_blanc.png
+MOMOSULMAN.ico
