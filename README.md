@@ -48,6 +48,45 @@ npm run build
 
 Deploiement Vercel : pousser le projet sur GitHub puis l'importer dans Vercel. Aucune API route, base de donnees ou configuration serveur n'est necessaire.
 
+### Creer un probleme (web)
+
+L'app web permet de creer un nouveau probleme directement depuis le navigateur, sans backend. Le fichier `.txt` est genere cote client et telecharge par l'utilisateur, qui peut ensuite l'integrer au repo.
+
+Acces : depuis le menu principal, cliquer sur **+ Creer un probleme** (route `/create`).
+
+Flux utilisateur :
+
+1. Choisir le cote (blanc ou noir) : determine le dossier de destination et l'orientation de l'echiquier.
+2. Saisir un nom d'ouverture : soit une ouverture existante (autocompletee depuis `data/problems.json`), soit un nouveau nom. Le nom est normalise (minuscules, sans accent, avec underscores).
+3. Optionnel : activer le mode **Modifier** pour editer la position de depart. Clic sur une case = cycle vide → pion → cavalier → fou → tour → dame → roi. Toggle separe pour la couleur courante d'edition. Boutons **Standard** et **Vider**.
+4. Sortir du mode edition pour figer la position de depart, puis jouer les coups en cliquant piece → case d'arrivee. Le cote a jouer alterne automatiquement.
+5. Bouton **Annuler dernier coup** pour revenir en arriere a tout moment.
+6. Bouton **Terminer** : ouvre un recap, propose le telechargement du fichier et la copie du contenu.
+
+Pour integrer le fichier genere au repo :
+
+```powershell
+# 1. Place le fichier telecharge dans le bon dossier (cote blanc) :
+#    problemes/<ouverture>/<numero>.txt
+# (cote noir : problemes/black/<ouverture>/<numero>.txt)
+# 2. Incremente la premiere ligne de Format.txt dans ce dossier.
+# 3. Relance l'export pour mettre a jour data/problems.json :
+python scripts/export_problems.py
+# 4. Commit et push :
+git add problemes data/problems.json
+git commit -m "Ajout d'un probleme dans <ouverture>"
+git push
+```
+
+Vercel redeploiera automatiquement et la nouvelle ligne apparaitra dans le mode entrainement web.
+
+Tests unitaires des helpers web (vitest) :
+
+```powershell
+npm install
+npm test
+```
+
 Anciens lancements encore disponibles :
 
 ```powershell

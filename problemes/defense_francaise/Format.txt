@@ -1,0 +1,22 @@
+6
+"Tableau de depart du probleme par exemple :"
+
+51 41 31 91 81 31 41 51
+11 11 11 11 11 11 11 11
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+12 12 12 12 12 12 12 12
+52 42 32 92 82 32 42 52
+
+puis a pres les coups les uns apres les autres : 
+--case de depart-- 
+--case d arrivee-- 
+--piece qui bouge-- 
+--piece sur la case d arrive--
+par exemple : 
+e 4 e 6 12 0 
+to do e4 moove
+
+0 to 100 : 3 knights openings

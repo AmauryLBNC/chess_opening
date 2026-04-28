@@ -1,0 +1,9 @@
+""" 
+cd Documents\PERSO\Code_Perso\python\echiquier
+Pyinstaller --onefile --windowed probleme.pyw
+"""
+""" 
+"C:\Users\amaur\AppData\Roaming\Python\Python312\site-packages\PyInstaller\bootloader\images\icon-console.ico"
+cd Documents\PERSO\Code_Perso\python\echiquier
+Pyinstaller --onefile --windowed probleme.pyw
+"""

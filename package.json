@@ -7,6 +7,8 @@
     "build": "next build",
     "export": "next build",
     "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "export:problems": "python scripts/export_problems.py"
   },
   "dependencies": {
@@ -25,6 +27,7 @@
     "@types/react-dom": "19.2.3",
     "postcss": "8.5.12",
     "tailwindcss": "4.2.4",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "vitest": "2.1.9"
   }
 }

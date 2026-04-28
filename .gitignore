@@ -21,6 +21,9 @@ requirements.txt
 
 # Text
 *.txt
+!problemes/**/*.txt
+!lib/__fixtures__/*.txt
+!info_utile.txt
 
 # Images (assets Python uniquement — public/ doit rester versionné pour Vercel)
 image/

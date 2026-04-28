@@ -44,6 +44,15 @@ export default function HomePage() {
           </Link>
         ))}
       </div>
+
+      <div className="mt-6">
+        <Link
+          href="/create"
+          className="inline-flex items-center justify-center gap-2 rounded-lg border border-[#58b383] bg-[#173a28] px-5 py-3 text-sm font-semibold text-[#a9f2bd] transition-colors hover:bg-[#1f4a35] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7bd99d]"
+        >
+          + Creer un probleme
+        </Link>
+      </div>
     </main>
   );
 }
