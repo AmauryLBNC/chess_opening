@@ -1,0 +1,260 @@
+{
+  "side": "black",
+  "folders_analyzed": 1,
+  "problems_found": 21,
+  "problems_analyzed": 21,
+  "positions_seen": 37,
+  "position_observations": 175,
+  "coherent_reuses": 125,
+  "conflicts": [
+    {
+      "position_key": "turn=white|board=51.0.31.91.81.31.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.0.11.0.0.0/0.0.32.0.12.0.0.0/0.0.0.0.0.42.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "b1c3_42_0",
+        "move_display": "b1 c3 42 0",
+        "file": "problemes/black/two_knights_defence/3.txt",
+        "folder": "two_knights_defence",
+        "move_index": 6,
+        "source_line": 14
+      },
+      "conflicting": {
+        "move": "d2d3_12_0",
+        "move_display": "d2 d3 12 0",
+        "file": "problemes/black/two_knights_defence/4.txt",
+        "folder": "two_knights_defence",
+        "move_index": 6,
+        "source_line": 14
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.0.11.0.0.0/0.0.32.0.12.0.0.0/0.0.0.12.0.42.0.0/12.12.12.0.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "f8c5_31_0",
+        "move_display": "f8 c5 31 0",
+        "file": "problemes/black/two_knights_defence/1.txt",
+        "folder": "two_knights_defence",
+        "move_index": 1,
+        "source_line": 9
+      },
+      "conflicting": {
+        "move": "f8e7_31_0",
+        "move_display": "f8 e7 31 0",
+        "file": "problemes/black/two_knights_defence/5.txt",
+        "folder": "two_knights_defence",
+        "move_index": 7,
+        "source_line": 15
+      }
+    },
+    {
+      "position_key": "turn=white|board=51.0.31.91.81.31.41.51/11.11.11.11.0.11.11.11/0.0.41.0.0.0.0.0/0.0.0.0.11.0.0.0/0.0.0.0.12.0.0.0/0.0.0.0.0.42.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.32.0.52",
+      "existing": {
+        "move": "f1c4_32_0",
+        "move_display": "f1 c4 32 0",
+        "file": "problemes/black/two_knights_defence/2.txt",
+        "folder": "two_knights_defence",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "d2d4_12_0",
+        "move_display": "d2 d4 12 0",
+        "file": "problemes/black/two_knights_defence/6.txt",
+        "folder": "two_knights_defence",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=white|board=51.0.31.91.81.31.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.0.11.0.0.0/0.0.32.0.12.0.0.0/0.0.0.0.0.42.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "b1c3_42_0",
+        "move_display": "b1 c3 42 0",
+        "file": "problemes/black/two_knights_defence/3.txt",
+        "folder": "two_knights_defence",
+        "move_index": 6,
+        "source_line": 14
+      },
+      "conflicting": {
+        "move": "d2d4_12_0",
+        "move_display": "d2 d4 12 0",
+        "file": "problemes/black/two_knights_defence/7.txt",
+        "folder": "two_knights_defence",
+        "move_index": 6,
+        "source_line": 14
+      }
+    },
+    {
+      "position_key": "turn=white|board=51.0.31.91.81.31.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.0.0.0.0.0/0.0.32.11.12.0.0.0/0.0.0.0.0.42.0.0/12.12.12.0.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "e1g1_82_0",
+        "move_display": "e1 g1 82 0",
+        "file": "problemes/black/two_knights_defence/6.txt",
+        "folder": "two_knights_defence",
+        "move_index": 8,
+        "source_line": 16
+      },
+      "conflicting": {
+        "move": "f3g5_42_0",
+        "move_display": "f3 g5 42 0",
+        "file": "problemes/black/two_knights_defence/8.txt",
+        "folder": "two_knights_defence",
+        "move_index": 8,
+        "source_line": 16
+      }
+    },
+    {
+      "position_key": "turn=white|board=51.0.31.91.81.31.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.0.11.0.0.0/0.0.32.0.12.0.0.0/0.0.0.0.0.42.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "b1c3_42_0",
+        "move_display": "b1 c3 42 0",
+        "file": "problemes/black/two_knights_defence/3.txt",
+        "folder": "two_knights_defence",
+        "move_index": 6,
+        "source_line": 14
+      },
+      "conflicting": {
+        "move": "f3g5_42_0",
+        "move_display": "f3 g5 42 0",
+        "file": "problemes/black/two_knights_defence/9.txt",
+        "folder": "two_knights_defence",
+        "move_index": 6,
+        "source_line": 14
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.0.51/11.11.11.0.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.12.11.0.42.0/0.0.32.0.0.0.0.0/0.0.0.0.0.0.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "f6d5_41_12",
+        "move_display": "f6 d5 41 12",
+        "file": "problemes/black/two_knights_defence/9.txt",
+        "folder": "two_knights_defence",
+        "move_index": 9,
+        "source_line": 17
+      },
+      "conflicting": {
+        "move": "c6d4_41_0",
+        "move_display": "c6 d4 41 0",
+        "file": "problemes/black/two_knights_defence/10.txt",
+        "folder": "two_knights_defence",
+        "move_index": 9,
+        "source_line": 17
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.0.51/11.11.11.0.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.12.11.0.42.0/0.0.32.0.0.0.0.0/0.0.0.0.0.0.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "f6d5_41_12",
+        "move_display": "f6 d5 41 12",
+        "file": "problemes/black/two_knights_defence/9.txt",
+        "folder": "two_knights_defence",
+        "move_index": 9,
+        "source_line": 17
+      },
+      "conflicting": {
+        "move": "c6b4_41_0",
+        "move_display": "c6 b4 41 0",
+        "file": "problemes/black/two_knights_defence/11.txt",
+        "folder": "two_knights_defence",
+        "move_index": 9,
+        "source_line": 17
+      }
+    },
+    {
+      "position_key": "turn=white|board=51.0.31.91.81.31.0.51/11.11.11.0.0.11.11.11/0.0.41.0.0.0.0.0/0.0.0.41.11.0.42.0/0.0.32.0.0.0.0.0/0.0.0.0.0.0.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "g5f7_42_11",
+        "move_display": "g5 f7 42 11",
+        "file": "problemes/black/two_knights_defence/9.txt",
+        "folder": "two_knights_defence",
+        "move_index": 10,
+        "source_line": 18
+      },
+      "conflicting": {
+        "move": "d2d4_12_0",
+        "move_display": "d2 d4 12 0",
+        "file": "problemes/black/two_knights_defence/14.txt",
+        "folder": "two_knights_defence",
+        "move_index": 10,
+        "source_line": 18
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.0.11.0.42.0/0.0.32.0.12.0.0.0/0.0.0.0.0.0.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "d7d5_11_0",
+        "move_display": "d7 d5 11 0",
+        "file": "problemes/black/two_knights_defence/9.txt",
+        "folder": "two_knights_defence",
+        "move_index": 7,
+        "source_line": 15
+      },
+      "conflicting": {
+        "move": "f6e4_41_12",
+        "move_display": "f6 e4 41 12",
+        "file": "problemes/black/two_knights_defence/16.txt",
+        "folder": "two_knights_defence",
+        "move_index": 7,
+        "source_line": 15
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.0.11.0.42.0/0.0.32.0.12.0.0.0/0.0.0.0.0.0.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "d7d5_11_0",
+        "move_display": "d7 d5 11 0",
+        "file": "problemes/black/two_knights_defence/9.txt",
+        "folder": "two_knights_defence",
+        "move_index": 7,
+        "source_line": 15
+      },
+      "conflicting": {
+        "move": "f8c5_31_0",
+        "move_display": "f8 c5 31 0",
+        "file": "problemes/black/two_knights_defence/17.txt",
+        "folder": "two_knights_defence",
+        "move_index": 7,
+        "source_line": 15
+      }
+    },
+    {
+      "position_key": "turn=white|board=51.0.31.91.81.0.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/0.0.31.0.11.0.42.0/0.0.32.0.12.0.0.0/0.0.0.0.0.0.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "c4f7_32_11",
+        "move_display": "c4 f7 32 11",
+        "file": "problemes/black/two_knights_defence/18.txt",
+        "folder": "two_knights_defence",
+        "move_index": 8,
+        "source_line": 16
+      },
+      "conflicting": {
+        "move": "g5f7_42_11",
+        "move_display": "g5 f7 42 11",
+        "file": "problemes/black/two_knights_defence/19.txt",
+        "folder": "two_knights_defence",
+        "move_index": 8,
+        "source_line": 16
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.0.51/11.11.11.0.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.12.11.0.42.0/0.0.32.0.0.0.0.0/0.0.0.0.0.0.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "f6d5_41_12",
+        "move_display": "f6 d5 41 12",
+        "file": "problemes/black/two_knights_defence/9.txt",
+        "folder": "two_knights_defence",
+        "move_index": 9,
+        "source_line": 17
+      },
+      "conflicting": {
+        "move": "b7b5_11_0",
+        "move_display": "b7 b5 11 0",
+        "file": "problemes/black/two_knights_defence/21.txt",
+        "folder": "two_knights_defence",
+        "move_index": 9,
+        "source_line": 17
+      }
+    }
+  ],
+  "parse_errors": [],
+  "move_application_errors": []
+}

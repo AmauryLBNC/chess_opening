@@ -1,0 +1,717 @@
+{
+  "side": "white",
+  "scope": "folder",
+  "folders_analyzed": 55,
+  "problems_found": 88,
+  "problems_analyzed": 88,
+  "positions_seen": 605,
+  "position_observations": 735,
+  "coherent_reuses": 93,
+  "conflicts": [
+    {
+      "position_key": "turn=black|board=51.41.31.91.81.31.41.51/11.11.11.0.0.11.11.11/0.0.0.0.0.0.0.0/0.0.0.11.0.0.0.0/0.0.0.12.0.0.0.0/0.0.0.0.0.42.0.0/12.12.12.0.0.12.12.12/52.42.32.92.82.32.0.52",
+      "existing": {
+        "move": "c8f5_31_0",
+        "move_display": "c8 f5 31 0",
+        "file": "problemes/defense_francaise/1.txt",
+        "folder": "defense_francaise",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "c7c5_11_0",
+        "move_display": "c7 c5 11 0",
+        "file": "problemes/defense_francaise/2.txt",
+        "folder": "defense_francaise",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.41.31.91.81.31.41.51/11.11.11.0.0.11.11.11/0.0.0.0.0.0.0.0/0.0.0.11.0.0.0.0/0.0.0.12.0.0.0.0/0.0.0.0.0.42.0.0/12.12.12.0.0.12.12.12/52.42.32.92.82.32.0.52",
+      "existing": {
+        "move": "c8f5_31_0",
+        "move_display": "c8 f5 31 0",
+        "file": "problemes/defense_francaise/1.txt",
+        "folder": "defense_francaise",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "c7c6_11_0",
+        "move_display": "c7 c6 11 0",
+        "file": "problemes/defense_francaise/3.txt",
+        "folder": "defense_francaise",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.41.31.91.81.31.41.51/11.11.11.0.0.11.11.11/0.0.0.0.0.0.0.0/0.0.0.11.0.0.0.0/0.0.0.12.0.0.0.0/0.0.0.0.0.42.0.0/12.12.12.0.0.12.12.12/52.42.32.92.82.32.0.52",
+      "existing": {
+        "move": "c8f5_31_0",
+        "move_display": "c8 f5 31 0",
+        "file": "problemes/defense_francaise/1.txt",
+        "folder": "defense_francaise",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "f8d6_31_0",
+        "move_display": "f8 d6 31 0",
+        "file": "problemes/defense_francaise/4.txt",
+        "folder": "defense_francaise",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.41.31.91.81.31.41.51/11.11.11.0.0.11.11.11/0.0.0.0.0.0.0.0/0.0.0.11.0.0.0.0/0.0.0.12.0.0.0.0/0.0.0.0.0.42.0.0/12.12.12.0.0.12.12.12/52.42.32.92.82.32.0.52",
+      "existing": {
+        "move": "c8f5_31_0",
+        "move_display": "c8 f5 31 0",
+        "file": "problemes/defense_francaise/1.txt",
+        "folder": "defense_francaise",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "f8d6_31_0",
+        "move_display": "f8 d6 31 0",
+        "file": "problemes/defense_francaise/5.txt",
+        "folder": "defense_francaise",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.41.31.91.81.0.41.51/11.11.11.0.0.11.11.11/0.0.0.31.0.0.0.0/0.0.0.11.0.0.0.0/0.0.12.12.0.0.0.0/0.0.0.0.0.42.0.0/12.12.0.0.0.12.12.12/52.42.32.92.82.32.0.52",
+      "existing": {
+        "move": "g8e7_41_0",
+        "move_display": "g8 e7 41 0",
+        "file": "problemes/defense_francaise/4.txt",
+        "folder": "defense_francaise",
+        "move_index": 6,
+        "source_line": 14
+      },
+      "conflicting": {
+        "move": "c7c6_11_0",
+        "move_display": "c7 c6 11 0",
+        "file": "problemes/defense_francaise/5.txt",
+        "folder": "defense_francaise",
+        "move_index": 6,
+        "source_line": 14
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.41.31.91.81.31.41.51/11.11.11.0.0.11.11.11/0.0.0.0.0.0.0.0/0.0.0.11.0.0.0.0/0.0.0.12.0.0.0.0/0.0.0.0.0.42.0.0/12.12.12.0.0.12.12.12/52.42.32.92.82.32.0.52",
+      "existing": {
+        "move": "c8f5_31_0",
+        "move_display": "c8 f5 31 0",
+        "file": "problemes/defense_francaise/1.txt",
+        "folder": "defense_francaise",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "f8d6_31_0",
+        "move_display": "f8 d6 31 0",
+        "file": "problemes/defense_francaise/6.txt",
+        "folder": "defense_francaise",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.0.51/11.11.11.0.0.11.11.11/0.0.41.11.0.41.0.0/0.32.0.0.11.0.0.0/0.0.0.12.12.0.0.0/0.0.42.0.0.42.0.0/12.12.12.0.0.12.12.12/52.0.32.92.82.0.0.52",
+      "existing": {
+        "move": "c8d7_31_0",
+        "move_display": "c8 d7 31 0",
+        "file": "problemes/quatre_cavaliers/1.txt",
+        "folder": "quatre_cavaliers",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "e5d4_11_12",
+        "move_display": "e5 d4 11 12",
+        "file": "problemes/quatre_cavaliers/2.txt",
+        "folder": "quatre_cavaliers",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.0.11.0.0.0/0.0.0.12.12.0.0.0/0.0.42.0.0.42.0.0/12.12.12.0.0.12.12.12/52.0.32.92.82.32.0.52",
+      "existing": {
+        "move": "d7d6_11_0",
+        "move_display": "d7 d6 11 0",
+        "file": "problemes/quatre_cavaliers/1.txt",
+        "folder": "quatre_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      },
+      "conflicting": {
+        "move": "f8b4_31_0",
+        "move_display": "f8 b4 31 0",
+        "file": "problemes/quatre_cavaliers/3.txt",
+        "folder": "quatre_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.0.11.0.0.0/0.0.0.12.12.0.0.0/0.0.42.0.0.42.0.0/12.12.12.0.0.12.12.12/52.0.32.92.82.32.0.52",
+      "existing": {
+        "move": "d7d6_11_0",
+        "move_display": "d7 d6 11 0",
+        "file": "problemes/quatre_cavaliers/1.txt",
+        "folder": "quatre_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      },
+      "conflicting": {
+        "move": "f8b4_31_0",
+        "move_display": "f8 b4 31 0",
+        "file": "problemes/quatre_cavaliers/4.txt",
+        "folder": "quatre_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.0.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.0.42.0.0.0/0.31.0.12.12.0.0.0/0.0.42.0.0.0.0.0/12.12.12.0.0.12.12.12/52.0.32.92.82.32.0.52",
+      "existing": {
+        "move": "d8e7_91_0",
+        "move_display": "d8 e7 91 0",
+        "file": "problemes/quatre_cavaliers/3.txt",
+        "folder": "quatre_cavaliers",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "e8g8_81_0",
+        "move_display": "e8 g8 81 0",
+        "file": "problemes/quatre_cavaliers/4.txt",
+        "folder": "quatre_cavaliers",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.0.11.0.0.0/0.0.0.12.12.0.0.0/0.0.42.0.0.42.0.0/12.12.12.0.0.12.12.12/52.0.32.92.82.32.0.52",
+      "existing": {
+        "move": "d7d6_11_0",
+        "move_display": "d7 d6 11 0",
+        "file": "problemes/quatre_cavaliers/1.txt",
+        "folder": "quatre_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      },
+      "conflicting": {
+        "move": "f8b4_31_0",
+        "move_display": "f8 b4 31 0",
+        "file": "problemes/quatre_cavaliers/5.txt",
+        "folder": "quatre_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.0.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.0.42.0.0.0/0.31.0.12.12.0.0.0/0.0.42.0.0.0.0.0/12.12.12.0.0.12.12.12/52.0.32.92.82.32.0.52",
+      "existing": {
+        "move": "d8e7_91_0",
+        "move_display": "d8 e7 91 0",
+        "file": "problemes/quatre_cavaliers/3.txt",
+        "folder": "quatre_cavaliers",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "f6e4_41_12",
+        "move_display": "f6 e4 41 12",
+        "file": "problemes/quatre_cavaliers/5.txt",
+        "folder": "quatre_cavaliers",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/0.0.0.0.0.0.0.0/0.0.0.42.12.0.0.0/0.0.42.0.0.0.0.0/12.12.12.0.0.12.12.12/52.0.32.92.82.32.0.52",
+      "existing": {
+        "move": "c6d4_41_42",
+        "move_display": "c6 d4 41 42",
+        "file": "problemes/quatre_cavaliers/6.txt",
+        "folder": "quatre_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      },
+      "conflicting": {
+        "move": "f8c5_31_0",
+        "move_display": "f8 c5 31 0",
+        "file": "problemes/quatre_cavaliers/7.txt",
+        "folder": "quatre_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.41.31.91.81.31.41.51/11.11.11.0.11.11.11.11/0.0.0.0.0.0.0.0/0.0.0.12.0.0.0.0/0.0.0.0.0.0.0.0/0.0.0.0.0.0.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.32.42.52",
+      "existing": {
+        "move": "d8d5_91_12",
+        "move_display": "d8 d5 91 12",
+        "file": "problemes/scandinave/1.txt",
+        "folder": "scandinave",
+        "move_index": 2,
+        "source_line": 10
+      },
+      "conflicting": {
+        "move": "g8f6_41_0",
+        "move_display": "g8 f6 41 0",
+        "file": "problemes/scandinave/2.txt",
+        "folder": "scandinave",
+        "move_index": 2,
+        "source_line": 10
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.41.31.91.81.31.41.51/11.11.11.0.11.11.11.11/0.0.0.0.0.0.0.0/0.0.0.12.0.0.0.0/0.0.0.0.0.0.0.0/0.0.0.0.0.0.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.32.42.52",
+      "existing": {
+        "move": "d8d5_91_12",
+        "move_display": "d8 d5 91 12",
+        "file": "problemes/scandinave/1.txt",
+        "folder": "scandinave",
+        "move_index": 2,
+        "source_line": 10
+      },
+      "conflicting": {
+        "move": "g8f6_41_0",
+        "move_display": "g8 f6 41 0",
+        "file": "problemes/scandinave/3.txt",
+        "folder": "scandinave",
+        "move_index": 2,
+        "source_line": 10
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.41.31.91.81.31.0.51/11.11.11.0.11.11.11.11/0.0.0.0.0.41.0.0/0.32.0.12.0.0.0.0/0.0.0.0.0.0.0.0/0.0.0.0.0.0.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.42.52",
+      "existing": {
+        "move": "c7c6_11_0",
+        "move_display": "c7 c6 11 0",
+        "file": "problemes/scandinave/2.txt",
+        "folder": "scandinave",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "c8d7_31_0",
+        "move_display": "c8 d7 31 0",
+        "file": "problemes/scandinave/3.txt",
+        "folder": "scandinave",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.41.31.0.81.31.41.51/11.11.11.0.11.11.11.11/0.0.0.0.0.0.0.0/0.0.0.91.0.0.0.0/0.0.0.0.0.0.0.0/0.0.42.0.0.0.0.0/12.12.12.12.0.12.12.12/52.0.32.92.82.32.42.52",
+      "existing": {
+        "move": "d5d8_91_0",
+        "move_display": "d5 d8 91 0",
+        "file": "problemes/scandinave/1.txt",
+        "folder": "scandinave",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "d5d6_91_0",
+        "move_display": "d5 d6 91 0",
+        "file": "problemes/scandinave/4.txt",
+        "folder": "scandinave",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.41.31.0.81.31.41.51/11.11.11.0.11.11.11.11/0.0.0.0.0.0.0.0/0.0.0.91.0.0.0.0/0.0.0.0.0.0.0.0/0.0.42.0.0.0.0.0/12.12.12.12.0.12.12.12/52.0.32.92.82.32.42.52",
+      "existing": {
+        "move": "d5d8_91_0",
+        "move_display": "d5 d8 91 0",
+        "file": "problemes/scandinave/1.txt",
+        "folder": "scandinave",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "d5d6_91_0",
+        "move_display": "d5 d6 91 0",
+        "file": "problemes/scandinave/5.txt",
+        "folder": "scandinave",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.41.31.0.81.31.0.51/11.11.11.0.11.11.11.11/0.0.0.91.0.41.0.0/0.0.0.0.0.0.0.0/0.0.0.12.0.0.0.0/0.0.42.0.0.42.0.0/12.12.12.0.0.12.12.12/52.0.32.92.82.32.0.52",
+      "existing": {
+        "move": "c8g4_31_0",
+        "move_display": "c8 g4 31 0",
+        "file": "problemes/scandinave/4.txt",
+        "folder": "scandinave",
+        "move_index": 8,
+        "source_line": 16
+      },
+      "conflicting": {
+        "move": "c7c6_11_0",
+        "move_display": "c7 c6 11 0",
+        "file": "problemes/scandinave/5.txt",
+        "folder": "scandinave",
+        "move_index": 8,
+        "source_line": 16
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.41.31.0.81.31.41.51/11.11.11.0.11.11.11.11/0.0.0.0.0.0.0.0/0.0.0.91.0.0.0.0/0.0.0.0.0.0.0.0/0.0.42.0.0.0.0.0/12.12.12.12.0.12.12.12/52.0.32.92.82.32.42.52",
+      "existing": {
+        "move": "d5d8_91_0",
+        "move_display": "d5 d8 91 0",
+        "file": "problemes/scandinave/1.txt",
+        "folder": "scandinave",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "d5d6_91_0",
+        "move_display": "d5 d6 91 0",
+        "file": "problemes/scandinave/6.txt",
+        "folder": "scandinave",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.41.31.0.81.31.0.51/11.11.11.0.11.11.11.11/0.0.0.91.0.41.0.0/0.0.0.0.0.0.0.0/0.0.0.12.0.0.0.0/0.0.42.0.0.42.0.0/12.12.12.0.0.12.12.12/52.0.32.92.82.32.0.52",
+      "existing": {
+        "move": "c8g4_31_0",
+        "move_display": "c8 g4 31 0",
+        "file": "problemes/scandinave/4.txt",
+        "folder": "scandinave",
+        "move_index": 8,
+        "source_line": 16
+      },
+      "conflicting": {
+        "move": "a7a6_11_0",
+        "move_display": "a7 a6 11 0",
+        "file": "problemes/scandinave/6.txt",
+        "folder": "scandinave",
+        "move_index": 8,
+        "source_line": 16
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.41.51/0.11.0.11.11.11.11.11/11.0.32.0.0.0.0.0/0.0.11.0.0.0.0.0/0.0.0.0.12.0.0.0/0.0.0.0.0.42.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "b7c6_11_32",
+        "move_display": "b7 c6 11 32",
+        "file": "problemes/sicilienne/1.txt",
+        "folder": "sicilienne",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "d7c6_11_32",
+        "move_display": "d7 c6 11 32",
+        "file": "problemes/sicilienne/2.txt",
+        "folder": "sicilienne",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.41.51/0.11.0.11.11.11.11.11/11.0.32.0.0.0.0.0/0.0.11.0.0.0.0.0/0.0.0.0.12.0.0.0/0.0.0.0.0.42.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "b7c6_11_32",
+        "move_display": "b7 c6 11 32",
+        "file": "problemes/sicilienne/1.txt",
+        "folder": "sicilienne",
+        "move_index": 4,
+        "source_line": 12
+      },
+      "conflicting": {
+        "move": "d7c6_11_32",
+        "move_display": "d7 c6 11 32",
+        "file": "problemes/sicilienne/3.txt",
+        "folder": "sicilienne",
+        "move_index": 4,
+        "source_line": 12
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.41.51/0.11.0.0.11.11.11.11/11.0.11.0.0.0.0.0/0.0.11.0.0.0.0.0/0.0.0.0.12.0.0.0/0.0.0.0.0.42.0.0/12.12.12.12.0.12.12.12/52.42.32.92.0.52.82.0",
+      "existing": {
+        "move": "c8g4_31_0",
+        "move_display": "c8 g4 31 0",
+        "file": "problemes/sicilienne/2.txt",
+        "folder": "sicilienne",
+        "move_index": 6,
+        "source_line": 14
+      },
+      "conflicting": {
+        "move": "d8c7_91_0",
+        "move_display": "d8 c7 91 0",
+        "file": "problemes/sicilienne/3.txt",
+        "folder": "sicilienne",
+        "move_index": 6,
+        "source_line": 14
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.41.51/11.11.0.11.11.11.11.11/0.0.41.0.0.0.0.0/0.32.11.0.0.0.0.0/0.0.0.0.12.0.0.0/0.0.0.0.0.42.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "a7a6_11_0",
+        "move_display": "a7 a6 11 0",
+        "file": "problemes/sicilienne/1.txt",
+        "folder": "sicilienne",
+        "move_index": 2,
+        "source_line": 10
+      },
+      "conflicting": {
+        "move": "d8c7_91_0",
+        "move_display": "d8 c7 91 0",
+        "file": "problemes/sicilienne/4.txt",
+        "folder": "sicilienne",
+        "move_index": 2,
+        "source_line": 10
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.41.51/11.11.0.11.11.11.11.11/0.0.41.0.0.0.0.0/0.32.11.0.0.0.0.0/0.0.0.0.12.0.0.0/0.0.0.0.0.42.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "a7a6_11_0",
+        "move_display": "a7 a6 11 0",
+        "file": "problemes/sicilienne/1.txt",
+        "folder": "sicilienne",
+        "move_index": 2,
+        "source_line": 10
+      },
+      "conflicting": {
+        "move": "d8b6_91_0",
+        "move_display": "d8 b6 91 0",
+        "file": "problemes/sicilienne/5.txt",
+        "folder": "sicilienne",
+        "move_index": 2,
+        "source_line": 10
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.41.51/11.11.0.11.11.11.11.11/0.0.41.0.0.0.0.0/0.32.11.0.0.0.0.0/0.0.0.0.12.0.0.0/0.0.0.0.0.42.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "a7a6_11_0",
+        "move_display": "a7 a6 11 0",
+        "file": "problemes/sicilienne/1.txt",
+        "folder": "sicilienne",
+        "move_index": 2,
+        "source_line": 10
+      },
+      "conflicting": {
+        "move": "e7e5_11_0",
+        "move_display": "e7 e5 11 0",
+        "file": "problemes/sicilienne/6.txt",
+        "folder": "sicilienne",
+        "move_index": 2,
+        "source_line": 10
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.0.91.81.31.0.51/0.11.0.31.11.11.11.11/11.0.41.11.0.41.0.0/0.0.11.0.0.0.0.0/0.0.0.0.12.0.0.0/0.0.12.0.0.42.0.0/12.12.0.12.0.12.12.12/52.42.32.92.52.32.82.0",
+      "existing": {
+        "move": "e7e5_11_0",
+        "move_display": "e7 e5 11 0",
+        "file": "problemes/sicilienne/7.txt",
+        "folder": "sicilienne",
+        "move_index": 8,
+        "source_line": 16
+      },
+      "conflicting": {
+        "move": "d7g4_31_0",
+        "move_display": "d7 g4 31 0",
+        "file": "problemes/sicilienne/8.txt",
+        "folder": "sicilienne",
+        "move_index": 8,
+        "source_line": 16
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.41.51/11.11.0.11.11.11.11.11/0.0.41.0.0.0.0.0/0.32.11.0.0.0.0.0/0.0.0.0.12.0.0.0/0.0.0.0.0.42.0.0/12.12.12.12.0.12.12.12/52.42.32.92.82.0.0.52",
+      "existing": {
+        "move": "a7a6_11_0",
+        "move_display": "a7 a6 11 0",
+        "file": "problemes/sicilienne/1.txt",
+        "folder": "sicilienne",
+        "move_index": 2,
+        "source_line": 10
+      },
+      "conflicting": {
+        "move": "d7d6_11_0",
+        "move_display": "d7 d6 11 0",
+        "file": "problemes/sicilienne/9.txt",
+        "folder": "sicilienne",
+        "move_index": 2,
+        "source_line": 10
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.0.91.81.31.0.51/0.11.0.31.11.11.11.11/11.0.41.11.0.41.0.0/0.0.11.0.0.0.0.0/0.0.0.0.12.0.0.0/0.0.12.0.0.42.0.0/12.12.0.12.0.12.12.12/52.42.32.92.52.32.82.0",
+      "existing": {
+        "move": "e7e5_11_0",
+        "move_display": "e7 e5 11 0",
+        "file": "problemes/sicilienne/7.txt",
+        "folder": "sicilienne",
+        "move_index": 8,
+        "source_line": 16
+      },
+      "conflicting": {
+        "move": "d7g4_31_0",
+        "move_display": "d7 g4 31 0",
+        "file": "problemes/sicilienne/9.txt",
+        "folder": "sicilienne",
+        "move_index": 10,
+        "source_line": 18
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.0.91.81.31.0.51/0.11.0.0.11.11.11.11/11.0.41.11.0.41.0.0/0.0.11.0.0.0.0.0/0.0.0.0.12.0.31.0/0.0.12.0.0.42.0.12/12.12.0.12.0.12.12.0/52.42.32.92.52.32.82.0",
+      "existing": {
+        "move": "g4h5_31_0",
+        "move_display": "g4 h5 31 0",
+        "file": "problemes/sicilienne/8.txt",
+        "folder": "sicilienne",
+        "move_index": 10,
+        "source_line": 18
+      },
+      "conflicting": {
+        "move": "g4f3_31_42",
+        "move_display": "g4 f3 31 42",
+        "file": "problemes/sicilienne/9.txt",
+        "folder": "sicilienne",
+        "move_index": 12,
+        "source_line": 20
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.31.41.51/11.11.11.0.0.11.11.11/0.0.41.11.0.0.0.0/0.0.0.0.11.0.0.0/0.0.0.12.12.0.0.0/0.0.42.0.0.42.0.0/12.12.12.0.0.12.12.12/52.0.32.92.82.32.0.52",
+      "existing": {
+        "move": "e5d4_11_12",
+        "move_display": "e5 d4 11 12",
+        "file": "problemes/trois_cavaliers/3.txt",
+        "folder": "trois_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      },
+      "conflicting": {
+        "move": "g8f6_41_0",
+        "move_display": "g8 f6 41 0",
+        "file": "problemes/trois_cavaliers/4.txt",
+        "folder": "trois_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.0.41.51/11.11.11.11.0.11.11.11/0.0.41.0.0.0.0.0/0.0.31.0.42.0.0.0/0.0.0.0.12.0.0.0/0.0.42.0.0.0.0.0/12.12.12.12.0.12.12.12/52.0.32.92.82.32.0.52",
+      "existing": {
+        "move": "c6e5_41_42",
+        "move_display": "c6 e5 41 42",
+        "file": "problemes/trois_cavaliers/5.txt",
+        "folder": "trois_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      },
+      "conflicting": {
+        "move": "c5f2_31_12",
+        "move_display": "c5 f2 31 12",
+        "file": "problemes/trois_cavaliers/6.txt",
+        "folder": "trois_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.0.41.51/11.11.11.11.0.11.11.11/0.0.41.0.0.0.0.0/0.0.0.42.11.0.0.0/0.31.0.0.12.0.0.0/0.0.0.0.0.42.0.0/12.12.12.12.0.12.12.12/52.0.32.92.82.32.0.52",
+      "existing": {
+        "move": "g8f6_41_0",
+        "move_display": "g8 f6 41 0",
+        "file": "problemes/trois_cavaliers/1.txt",
+        "folder": "trois_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      },
+      "conflicting": {
+        "move": "b4a5_31_0",
+        "move_display": "b4 a5 31 0",
+        "file": "problemes/trois_cavaliers/8.txt",
+        "folder": "trois_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.0.41.51/11.11.11.11.0.11.11.11/0.0.41.0.0.0.0.0/0.0.0.42.11.0.0.0/0.31.0.0.12.0.0.0/0.0.0.0.0.42.0.0/12.12.12.12.0.12.12.12/52.0.32.92.82.32.0.52",
+      "existing": {
+        "move": "g8f6_41_0",
+        "move_display": "g8 f6 41 0",
+        "file": "problemes/trois_cavaliers/1.txt",
+        "folder": "trois_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      },
+      "conflicting": {
+        "move": "b4a5_31_0",
+        "move_display": "b4 a5 31 0",
+        "file": "problemes/trois_cavaliers/9.txt",
+        "folder": "trois_cavaliers",
+        "move_index": 2,
+        "source_line": 10
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.0.0.51/11.11.11.11.0.11.11.11/0.0.41.0.0.41.0.0/31.0.0.42.11.0.0.0/0.0.0.12.12.0.0.0/0.0.12.0.0.42.0.0/12.12.0.0.0.12.12.12/52.0.32.92.82.32.0.52",
+      "existing": {
+        "move": "f6e4_41_12",
+        "move_display": "f6 e4 41 12",
+        "file": "problemes/trois_cavaliers/8.txt",
+        "folder": "trois_cavaliers",
+        "move_index": 6,
+        "source_line": 14
+      },
+      "conflicting": {
+        "move": "e5d4_11_12",
+        "move_display": "e5 d4 11 12",
+        "file": "problemes/trois_cavaliers/9.txt",
+        "folder": "trois_cavaliers",
+        "move_index": 6,
+        "source_line": 14
+      }
+    },
+    {
+      "position_key": "turn=black|board=51.0.31.91.81.0.41.51/11.11.11.11.0.11.31.11/0.0.41.0.0.0.11.0/0.0.0.0.0.0.0.0/0.0.0.42.12.0.0.0/0.0.42.0.32.0.0.0/12.12.12.0.0.12.12.12/52.0.0.92.82.32.0.52",
+      "existing": {
+        "move": "g8f6_41_0",
+        "move_display": "g8 f6 41 0",
+        "file": "problemes/trois_cavaliers/2.txt",
+        "folder": "trois_cavaliers",
+        "move_index": 6,
+        "source_line": 14
+      },
+      "conflicting": {
+        "move": "d7d6_11_0",
+        "move_display": "d7 d6 11 0",
+        "file": "problemes/trois_cavaliers/10.txt",
+        "folder": "trois_cavaliers",
+        "move_index": 6,
+        "source_line": 14
+      }
+    }
+  ],
+  "parse_errors": [],
+  "move_application_errors": []
+}

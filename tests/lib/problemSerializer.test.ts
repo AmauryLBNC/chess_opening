@@ -36,6 +36,6 @@ describe("serializeProblem", () => {
 
   it("rejette un echiquier qui n'a pas exactement 8 lignes", () => {
     const bad = STANDARD_BOARD.slice(0, 7);
-    expect(() => serializeProblem(bad, [])).toThrow(/8 lignes/);
+    expect(() => serializeProblem(bad, [])).toThrow(/8 attendues/);
   });
 });

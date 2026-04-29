@@ -1,0 +1,12 @@
+# Dossiers blancs historiques ou structures de repertoire a conserver.
+# Un dossier liste ici ne sera jamais deplace par rollback_generated_openings.py.
+defense_francaise
+quatre_cavaliers
+scandinave
+sicilienne
+trois_cavaliers
+repertoire_blanc_e4
+repertoire_e4_6_demicoups
+repertoire_e4_8_demicoups
+repertoire_e4_10_demicoups
+repertoire_e4_12_demicoups

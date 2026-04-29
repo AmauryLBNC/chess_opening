@@ -1,4 +1,4 @@
-1
+21
 "Tableau de depart du probleme par exemple :"
 
 52 42 32 92 82 32 42 52

@@ -18,12 +18,16 @@ __pycache__/
 build/
 dist/
 requirements.txt
+!scripts/**/*.py
+!tools/**/*.py
+!tests/**/*.py
 
 # Text
 *.txt
 !problemes/**/*.txt
 !lib/__fixtures__/*.txt
 !info_utile.txt
+!data/white_repertoire_keep_list.txt
 
 # Images (assets Python uniquement — public/ doit rester versionné pour Vercel)
 image/

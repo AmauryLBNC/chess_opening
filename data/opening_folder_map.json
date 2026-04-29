@@ -1,0 +1,168 @@
+{
+  "white": {
+    "french_defense": {
+      "folder": "defense_francaise",
+      "match_type": "auto_synonym",
+      "display_name": "French Defense",
+      "eco": "C00"
+    },
+    "four_knights_game": {
+      "folder": "quatre_cavaliers",
+      "match_type": "auto_synonym",
+      "display_name": "Four Knights Game",
+      "eco": "C47"
+    },
+    "scandinavian_defense": {
+      "folder": "scandinave",
+      "match_type": "auto_synonym",
+      "display_name": "Scandinavian Defense",
+      "eco": "B01"
+    },
+    "sicilian_defense": {
+      "folder": "sicilienne",
+      "match_type": "auto_synonym",
+      "display_name": "Sicilian Defense",
+      "eco": "B20"
+    },
+    "three_knights_opening": {
+      "folder": "trois_cavaliers",
+      "match_type": "auto_synonym",
+      "display_name": "Three Knights Opening",
+      "eco": "C46"
+    }
+  },
+  "black": {
+    "italian_game_two_knights_defense": {
+      "folder": "two_knights_defence",
+      "match_type": "auto_label_contains_folder",
+      "display_name": "Italian Game: Two Knights Defense",
+      "eco": "C55"
+    }
+  },
+  "unmatched_project_folders": {
+    "white": [],
+    "black": []
+  },
+  "unmatched_openings_sample": [
+    {
+      "eco": "A00",
+      "name": "Amar Opening",
+      "label": "amar_opening",
+      "moves_pgn": "1. Nh3"
+    },
+    {
+      "eco": "A00",
+      "name": "Amar Opening: Paris Gambit",
+      "label": "amar_opening_paris_gambit",
+      "moves_pgn": "1. Nh3 d5 2. g3 e5 3. f4"
+    },
+    {
+      "eco": "A00",
+      "name": "Amar Opening: Paris Gambit, Gent Gambit",
+      "label": "amar_opening_paris_gambit_gent_gambit",
+      "moves_pgn": "1. Nh3 d5 2. g3 e5 3. f4 Bxh3 4. Bxh3 exf4 5. O-O fxg3 6. hxg3"
+    },
+    {
+      "eco": "A00",
+      "name": "Amsterdam Attack",
+      "label": "amsterdam_attack",
+      "moves_pgn": "1. e3 e5 2. c4 d6 3. Nc3 Nc6 4. b3 Nf6"
+    },
+    {
+      "eco": "A00",
+      "name": "Anderssen's Opening",
+      "label": "anderssens_opening",
+      "moves_pgn": "1. a3"
+    },
+    {
+      "eco": "A00",
+      "name": "Anderssen's Opening: Polish Gambit",
+      "label": "anderssens_opening_polish_gambit",
+      "moves_pgn": "1. a3 a5 2. b4"
+    },
+    {
+      "eco": "A00",
+      "name": "Barnes Opening",
+      "label": "barnes_opening",
+      "moves_pgn": "1. f3"
+    },
+    {
+      "eco": "A00",
+      "name": "Barnes Opening: Fool's Mate",
+      "label": "barnes_opening_fools_mate",
+      "moves_pgn": "1. f3 e5 2. g4 Qh4#"
+    },
+    {
+      "eco": "A00",
+      "name": "Barnes Opening: Gedult Gambit",
+      "label": "barnes_opening_gedult_gambit",
+      "moves_pgn": "1. f3 d5 2. e4 g6 3. d4 dxe4 4. c3"
+    },
+    {
+      "eco": "A00",
+      "name": "Barnes Opening: Gedult Gambit",
+      "label": "barnes_opening_gedult_gambit",
+      "moves_pgn": "1. f3 f5 2. e4 fxe4 3. Nc3"
+    },
+    {
+      "eco": "A00",
+      "name": "Barnes Opening: Hammerschlag",
+      "label": "barnes_opening_hammerschlag",
+      "moves_pgn": "1. f3 e5 2. Kf2"
+    },
+    {
+      "eco": "A00",
+      "name": "Clemenz Opening",
+      "label": "clemenz_opening",
+      "moves_pgn": "1. h3"
+    },
+    {
+      "eco": "A00",
+      "name": "Clemenz Opening: Spike Lee Gambit",
+      "label": "clemenz_opening_spike_lee_gambit",
+      "moves_pgn": "1. h3 h5 2. g4"
+    },
+    {
+      "eco": "A00",
+      "name": "Creepy Crawly Formation: Classical Defense",
+      "label": "creepy_crawly_formation_classical_defense",
+      "moves_pgn": "1. h3 d5 2. a3 e5"
+    },
+    {
+      "eco": "A00",
+      "name": "Formation: Hippopotamus Attack",
+      "label": "formation_hippopotamus_attack",
+      "moves_pgn": "1. a3 e5 2. b3 d5 3. c3 Nf6 4. d3 Nc6 5. e3 Bd6 6. f3 O-O 7. g3"
+    },
+    {
+      "eco": "A00",
+      "name": "Formation: Shy Attack",
+      "label": "formation_shy_attack",
+      "moves_pgn": "1. a3 e5 2. g3 d5 3. Bg2 Nf6 4. d3 Nc6 5. Nd2 Bd6 6. e3 O-O 7. h3"
+    },
+    {
+      "eco": "A00",
+      "name": "Global Opening",
+      "label": "global_opening",
+      "moves_pgn": "1. h3 e5 2. a3"
+    },
+    {
+      "eco": "A00",
+      "name": "Grob Opening",
+      "label": "grob_opening",
+      "moves_pgn": "1. g4"
+    },
+    {
+      "eco": "A00",
+      "name": "Grob Opening: Alessi Gambit",
+      "label": "grob_opening_alessi_gambit",
+      "moves_pgn": "1. g4 f5"
+    },
+    {
+      "eco": "A00",
+      "name": "Grob Opening: Double Grob",
+      "label": "grob_opening_double_grob",
+      "moves_pgn": "1. g4 g5"
+    }
+  ]
+}

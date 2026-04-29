@@ -5,8 +5,8 @@ import { CheckCircle2, Eraser, Pencil, RotateCcw, Undo2 } from "lucide-react";
 
 import { StatusBadge } from "@/components/StatusBadge";
 import { moveToProblemLine } from "@/lib/board";
+import { formatOpeningDetails, getOpeningsWithProblems, normalizeFolderDisplayName, openingMatchesQuery } from "@/lib/openings";
 import { orientationLabel, sideLabel } from "@/lib/pieces";
-import { variantNames } from "@/lib/problemData";
 import { isValidVariantName } from "@/lib/variantName";
 import type { CreateState } from "@/hooks/useCreateSession";
 import type { ProblemMove, Side } from "@/lib/types";
@@ -43,7 +43,8 @@ export function CreateSidePanel({
   onUndo,
   onFinish,
 }: CreateSidePanelProps) {
-  const existing = variantNames(state.side);
+  const existing = getOpeningsWithProblems(state.side);
+  const matchingExisting = existing.filter((opening) => openingMatchesQuery(opening, state.variantInput)).slice(0, 6);
   const turnLabel = state.turn === "white" ? "Aux blancs" : "Aux noirs";
   const lastMoveText = lastMove ? moveToProblemLine(lastMove) : "Aucun coup";
   const variantValid = isValidVariantName(state.variantInput);
@@ -99,10 +100,41 @@ export function CreateSidePanel({
           className="w-full rounded-md border border-[#4a443b] bg-[#151512] px-3 py-2 text-sm text-[#f6f1e8] placeholder:text-[#5e574c] focus:border-[#58b383] focus:outline-none"
         />
         <datalist id="existing-variants">
-          {existing.map((name) => (
-            <option key={name} value={name} />
+          {existing.map((opening) => (
+            <option
+              key={opening.folder}
+              value={opening.folder}
+              label={`${opening.displayName}${opening.eco ? ` - ECO ${opening.eco}` : ""}`}
+            />
           ))}
         </datalist>
+        {matchingExisting.length > 0 ? (
+          <div className="mt-3 grid gap-2">
+            {matchingExisting.map((opening) => {
+              const details = formatOpeningDetails(opening);
+              const folderDisplayName = normalizeFolderDisplayName(opening.folder);
+
+              return (
+                <button
+                  key={opening.folder}
+                  type="button"
+                  onClick={() => onVariantInputChange(opening.folder)}
+                  className="rounded-md border border-[#333029] bg-[#151512] px-3 py-2 text-left transition-colors hover:border-[#58b383] hover:bg-[#22201c] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7bd99d]"
+                >
+                  <span className="block text-sm font-semibold text-[#f6f1e8]">{opening.displayName}</span>
+                  <span className="mt-1 block text-xs text-[#8f877a]">
+                    {details}
+                    {details ? " | " : ""}
+                    dossier: {opening.folder}
+                  </span>
+                  {folderDisplayName !== opening.displayName ? (
+                    <span className="mt-1 block text-xs text-[#6f6659]">{folderDisplayName}</span>
+                  ) : null}
+                </button>
+              );
+            })}
+          </div>
+        ) : null}
         <p className="mt-2 text-xs text-[#8f877a]">
           {existing.length} ouverture(s) {sideLabel(state.side)} existante(s). Saisis un nom existant pour ajouter une ligne, ou un nouveau nom.
         </p>

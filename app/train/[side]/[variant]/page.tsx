@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 
 import { TrainingScreen } from "@/components/TrainingScreen";
+import { getOpeningMetadata } from "@/lib/openings";
 import { isSide, problems, SIDES, variantNames } from "@/lib/problemData";
 
 export const dynamicParams = false;
@@ -28,5 +29,5 @@ export default async function TrainingPage({ params }: TrainingPageProps) {
     notFound();
   }
 
-  return <TrainingScreen side={rawSide} variant={variant} problems={variantProblems} />;
+  return <TrainingScreen side={rawSide} variant={variant} problems={variantProblems} opening={getOpeningMetadata(variant, rawSide)} />;
 }

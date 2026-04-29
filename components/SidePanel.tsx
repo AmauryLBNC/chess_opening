@@ -5,13 +5,16 @@ import type { LucideIcon } from "lucide-react";
 import { Lightbulb, List, RefreshCw, RotateCcw, Undo2 } from "lucide-react";
 
 import { moveToProblemLine } from "@/lib/board";
+import { formatOpeningDetails } from "@/lib/openings";
 import { isFinished } from "@/lib/problemSession";
 import { orientationLabel } from "@/lib/pieces";
+import type { OpeningMetadata } from "@/lib/openings";
 import type { SessionState } from "@/lib/types";
 import { StatusBadge } from "@/components/StatusBadge";
 
 type SidePanelProps = {
   readonly state: SessionState;
+  readonly opening: OpeningMetadata;
   readonly onNewProblem: () => void;
   readonly onPrevious: () => void;
   readonly onSolution: () => void;
@@ -57,17 +60,21 @@ function PanelButton({ icon: Icon, children, onClick, disabled = false, href, va
   );
 }
 
-export function SidePanel({ state, onNewProblem, onPrevious, onSolution, onRedo }: SidePanelProps) {
+export function SidePanel({ state, opening, onNewProblem, onPrevious, onSolution, onRedo }: SidePanelProps) {
   const finished = isFinished(state);
   const variantsHref = `/train/${state.side}`;
   const lastMove = state.lastMove ? moveToProblemLine(state.lastMove) : "Aucun coup";
+  const openingDetails = formatOpeningDetails(opening);
 
   return (
     <aside className="flex w-full flex-col rounded-lg border border-[#333029] bg-[#1b1b18]/94 p-5 shadow-xl shadow-black/20 lg:min-h-[620px] lg:w-[360px]">
       <div className="flex items-start justify-between gap-4">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#58b383]">Mode probleme</p>
-          <h1 className="mt-2 text-2xl font-semibold text-[#f6f1e8]">{state.variant}</h1>
+          <h1 className="mt-2 text-2xl font-semibold text-[#f6f1e8]">{opening.displayName}</h1>
+          <p className="mt-2 font-mono text-xs text-[#8f877a]">
+            {openingDetails ? `${openingDetails} | ${state.variant}` : state.variant}
+          </p>
         </div>
         <StatusBadge kind={finished ? "success" : state.statusKind} label={finished ? "GOOD" : "STATUT"} />
       </div>

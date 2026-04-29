@@ -15,6 +15,8 @@ export type Problem = {
   readonly id: number;
   readonly board: BoardMatrix;
   readonly moves: readonly ProblemMove[];
+  readonly plyCount: number;
+  readonly category: string;
 };
 
 export type ProblemsData = {
